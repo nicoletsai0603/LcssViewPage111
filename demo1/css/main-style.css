@@ -12,8 +12,7 @@ body {
     font-size: 1.5rem;
     background-size: cover;
     background-color: #fff;
-    background: url(../img/index.jpg) no-repeat top center;
-    overflow-x: hidden;
+    display: grid;
 }
 
 .body2 {
@@ -22,52 +21,48 @@ body {
     height: 1170px;
 }
 
-.width1500 {
+.index_bg {
+    background: url(../img/index.jpg) no-repeat top center;
+    background-size: cover;
+    padding-top: 60%;
+    width: 100%;
+    grid-area: 1/-1;
+    position: absolute;
+}
+
+.width67per {
     position: relative;
     z-index: 9;
-    width: 1200px;
-    margin-top: 410px;
-    display: flex;
+    max-width: 67%;
+    margin-top: 20%;
+    display: grid;
     align-items: center;
-    justify-content: flex-start;
-    height: 800px;
 }
 
-h1 {
-    position: absolute;
-    left: 0px;
-    width: 1213px;
-    height: 415px;
-    top: 0px
-}
-
-h1 .shine_logo {
-    position: absolute;
-    width: 1213px;
-    height: 415px;
-    left: 10%;
-    top: 0px;
+.shine_logo {
+    width: 100%;
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.3));
+    position: relative;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
-h1 .shine_logo2 {
-    position: absolute;
-    left: 120px;
-    top: 0;
-    width: 1213px;
-    height: 415px;
+.shine_logo2 {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 100%;
+    position: relative;
+    background-size: cover;
     background: url(../img/Gradient.svg) no-repeat 0 0px;
-    -webkit-mask: url(../img/logo.svg) no-repeat 0 0;
-    mask: url(../img/logo.svg) no-repeat 0 0;
+    -webkit-mask: url(../img/logo.svg) no-repeat center / cover;
+    mask: url(../img/logo.svg) no-repeat center / cover;
     animation: shine_logo 4.5s ease infinite;
     z-index: 9;
 }
 
 @keyframes shine_logo {
     0% {
-        background: url(../img/Gradient.svg) no-repeat -600px -50px;
+        background: url(../img/Gradient.svg) no-repeat -6% -50px;
     }
     100% {
-        background: url(../img/Gradient.svg) no-repeat 1213px -50px;
+        background: url(../img/Gradient.svg) no-repeat 200% -50px;
     }
 }
