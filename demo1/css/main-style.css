@@ -12,12 +12,12 @@ body {
     font-size: 1.5rem;
     background-size: cover;
     background-color: #fff;
-    background: url(../img/_index.jpg) no-repeat top center;
+    background: url(../img/index.jpg) no-repeat top center;
     overflow-x: hidden;
 }
 
 .body2 {
-    background: url(../img/_inside.jpg) no-repeat top center;
+    background: url(../img/inside.jpg) no-repeat top center;
     overflow-x: hidden;
     height: 1170px;
 }
