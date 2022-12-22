@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="547.52" height="829.92" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 547.52 829.92">
+  <defs>
+    <linearGradient id="_未命名漸層_17" data-name="未命名漸層 17" x1="143.79" y1="423.74" x2="444.79" y2="423.74" gradientTransform="translate(23.14 -8.78) scale(.85 1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="_圖層_1-2" data-name="圖層 1">
+    <rect x="145.59" y="18.46" width="256.34" height="793" transform="translate(185.23 -74.22) rotate(23.16)" style="fill: url(#_未命名漸層_17);"/>
+  </g>
+</svg>

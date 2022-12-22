@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url("http://fonts.googleapis.com/earlyaccess/notosanstc.css");
+
+/*首頁*/
+
+body {
+    color: #333;
+    font-family: Verdana, Noto Sans CJK TC !important;
+    font-size: 1.5rem;
+    background-size: cover;
+    background-color: #fff;
+    background: url(../img/index.jpg) no-repeat top center;
+    overflow-x: hidden;
+}
+
+.body2 {
+    background: url(../img/inside.jpg) no-repeat top center;
+    overflow-x: hidden;
+    height: 1170px;
+}
+
+.width1500 {
+    position: relative;
+    z-index: 9;
+    width: 1200px;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+h1 {
+    position: absolute;
+    left: 0px;
+    width: 1213px;
+    height: 466px;
+    top: 0px
+}
+
+h1 .shine_logo {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+
+h1 .shine_logo2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1213px;
+    height: 466px;
+    background: url(../img/Gradient.svg) no-repeat 0 0px;
+    -webkit-mask: url(../img/logo.svg) no-repeat 0 0;
+    mask: url(../img/logo.svg) no-repeat 0 0;
+    animation: shine_logo 4.5s ease infinite;
+    z-index: 9;
+}
+
+@keyframes shine_logo {
+    0% {
+        background: url(../img/Gradient.svg) no-repeat -600px -50px;
+    }
+    100% {
+        background: url(../img/Gradient.svg) no-repeat 1213px -50px;
+    }
+}
